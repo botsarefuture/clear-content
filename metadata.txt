@@ -1,0 +1,3 @@
+Name: clear-content
+Version: 1.0
+Description: A script to clear the content of a file.

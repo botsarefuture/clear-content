@@ -1,0 +1,5 @@
+Package: clear-content
+Version: 1.0
+Architecture: all
+Maintainer: Verso Vuorenmaa <verso@luova.club>
+Description: A script to clear the content of a file.
