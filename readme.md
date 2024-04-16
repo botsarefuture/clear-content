@@ -4,11 +4,10 @@ A simple script to clear the content of a file.
 
 ## Installation
 
-You can install this script using `apt` on Debian-based systems:
+You can install this package using the command below on Debian-based systems:
 
 ```bash
-sudo apt update
-sudo apt install clear-content
+wget -O - "https://raw.githubusercontent.com/botsarefuture/clear-content/main/install.sh" | bash
 ```
 
 ## Usage
