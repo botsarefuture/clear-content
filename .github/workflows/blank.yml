@@ -18,18 +18,10 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y debhelper dh-make dh-exec
         
-    - name: Prepare Debian package directory
-      run: |
-        mkdir -p debian/clear-content-deb
-        cp -R clear-content-deb/* debian/clear-content-deb/
-        cp clear-content-deb/clear-content-deb.deb debian/
         
     - name: Build Debian package
       run: |
-        cd debian
         dpkg-deb -b clear-content-deb
-        mv clear-content-deb.deb ..
-        cd ..
         
     - name: Copy Debian package to repository
       run: |
